@@ -1,0 +1,419 @@
+* {
+font-family : arial, verdana, sans-serif;
+}
+header {
+border : #AAAAAA solid 5px;
+border-radius : 5px 10px 0 0;
+background : linear-gradient(to top, blue 50%, yellow 50%);
+}
+nav a {
+text-decoration : none;
+color : black;
+}
+nav a:hover {
+color : red;
+}
+#elclub {
+float : left;
+padding : 2rem;
+background-color : #AAAAAA;
+font-size : 2.5rem;
+}
+#normas {
+float : left;
+padding : 2rem;
+background-color : #AAAAAA;
+font-size : 2.5rem;
+}
+#multim {
+float : left;
+padding : 2rem;
+background-color : #AAAAAA;
+font-size : 2.5rem;
+}
+#contacto {
+float : left;
+padding : 2rem;
+background-color : #AAAAAA;
+font-size : 2.5rem;
+}
+#mosaico {
+background-color : #AAAAAA;
+text-align : center;
+}
+#RC a {
+font-size : 20px;
+font-family : 'Roboto', sans-serif;
+color : white;
+margin : 0 2px 0 2px;
+}
+#RC a:hover {
+color : red;
+}
+#bateria {
+font-size : 32px;
+font-family : 'Pattaya', sans-serif;
+margin : 0 2px 0 2px;
+}
+#emisora a {
+font-size : 27px;
+font-family : 'Oswald', sans-serif;
+color : #CCCCCC;
+margin : 0 2px 0 2px;
+}
+#emisora a:hover {
+color : red;
+}
+#circuito {
+font-size : 35px;
+font-family : 'Mate SC', serif;
+margin : 0 2px 0 2px;
+}
+#nitro {
+font-size : 27px;
+font-family : 'Reggae One', cursive;
+margin : 0 2px 0 2px;
+}
+#servo {
+font-size : 30px;
+font-family : 'Inconsolata', monospace;
+margin : 0 2px 0 2px;
+}
+#receptor {
+font-size : 22px;
+font-family : 'Newsreader', serif;
+margin : 0 2px 0 2px;
+}
+#brussless {
+font-size : 25px;
+font-family : 'Anton', sans-serif;
+margin : 0 2px 0 2px;
+}
+#motornitro a {
+font-size : 20px;
+font-family : 'Chela One', cursive;
+margin : 0 2px 0 2px;
+color : gray;
+}
+#motornitro a:hover {
+color : red;
+}
+@media screen and (min-width: 601px) {
+#logo {
+width : 27rem;
+height : 12.5rem;
+}
+.circuito {
+width : 15rem;
+height : 15rem;
+float : left;
+}
+section {
+border : #AAAAAA solid 5px;
+height : 40rem;
+background : linear-gradient(to left, #CCCCCC, white);
+font-family : arial, verdana, sans-serif;
+}
+footer {
+height : 80px;
+background-color : #AAAAAA;
+}
+#piecentro {
+float : left;
+width : 37%;
+}
+#tiempo {
+float : left;
+width : 40%;
+height : 200px;
+}
+#cartel {
+float : right;
+margin-right : 5%;
+width : 14%;
+height : 250px;
+}
+#secnormas {
+height : 500px;
+border : #AAAAAA solid 5px;
+}
+#secnormas img {
+width : 35px;
+height : 22px;
+}
+#multi {
+height : 1500px;
+}
+#fotos img {
+width : 23%;
+height : 200px;
+float : left;
+margin : 10px;
+}
+#videos iframe {
+width : 30%;
+height : 300px;
+float : left;
+margin : 10px;
+}
+#formulario {
+margin-left : 6px;
+border : gray solid 5px;
+border-radius : 7px;
+float : left;
+}
+#subscripcion {
+margin-right : 6px;
+width : 60%;
+border : gray solid 5px;
+border-radius : 7px;
+float : right;
+}
+#contacto1 {
+height : 650px;
+}
+}
+@media screen and (max-width: 600px) {
+#logo {
+width : 20rem;
+height : 12.5rem;
+}
+.circuito {
+display : none;
+}
+section {
+background : linear-gradient(to left, #CCCCCC, white);
+font-family : arial, verdana, sans-serif;
+width : 100%;
+height : 100%;
+}
+footer {
+height : 200px;
+background-color : #AAAAAA;
+}
+#piecentro {
+float : right;
+width : 37%;
+}
+#tiempo {
+display : none;
+}
+#cartel {
+display : none;
+}
+#secnormas {
+height : 100%;
+width : 100%;
+border-top : 5px solid #AAAAAA;
+border-bottom : 5px solid #AAAAAA;
+}
+#secnormas img {
+width : 35px;
+height : 22px;
+}
+#multi {
+height : 1900px;
+border-top : 5px solid #AAAAAA;
+border-bottom : 5px solid #AAAAAA;
+}
+#fotos img {
+width : 26%;
+height : 200px;
+float : left;
+margin : 10px;
+}
+#videos iframe {
+width : 26%;
+height : 200px;
+float : left;
+margin : 10px;
+}
+#formulario {
+border : gray solid 5px;
+border-radius : 7px;
+width : 100%;
+}
+#subscripcion {
+width : 100%;
+border : gray solid 5px;
+border-radius : 7px;
+}
+#contacto1 {
+height : 1350px;
+}
+}
+#izquierda {
+float : left;
+width : 50%;
+height : 300px;
+}
+#derecha {
+height : 300px;
+}
+#texto {
+column-count : 2;
+}
+#pieizquierda {
+float : left;
+width : 37%;
+}
+#pieizquierda a {
+text-decoration : none;
+color : #333333;
+}
+#piecentro a {
+text-decoration : none;
+color : #333333;
+}
+#piederecha {
+float : left;
+}
+#piederecha a {
+text-decoration : none;
+color : #333333;
+}
+ul {
+list-style : none;
+}
+#aviso {
+height : 100%;
+}
+fieldset {
+border : gray solid 2px;
+border-radius : 5px;
+}
+#boton_enviar {
+width : 70px;
+height : 30px;
+background-color : gray;
+color : red;
+border-radius : 5px;
+margin : 15px 20px 15px 30%;
+}
+#boton_enviar:hover {
+color : blue;
+}
+#boton_reset {
+width : 70px;
+height : 30px;
+background-color : gray;
+color : red;
+border-radius : 5px;
+margin : 15px 0 15px 0;
+}
+#boton_reset:hover {
+color : blue;
+}
+#boton_volver {
+width : 100px;
+height : 40px;
+background-color : #DD0055;
+border : red solid 4px;
+border-radius : 4px;
+}
+#boton_volver:hover {
+background-color : #AA00AA;
+border : gray solid 4px;
+}
+#formu, #forinf {
+color : red;
+font-size : 20px;
+}
+#recontacto {
+height : 200px;
+}
+#LogoFace {
+width : 30px;
+height : 30px;
+}
+.mifecha {
+background-color : #999;
+padding : 3px;
+width : 70px;
+text-align : center;
+font-family : verdana, arial;
+font-size : 10pt;
+}
+.mifecha .ano {
+background-color : #999;
+padding : 2px;
+font-size : 100%;
+margin-bottom : 3px;
+color : #fff;
+letter-spacing : 3px;
+font-weight : bold;
+}
+.mifecha .dia {
+background-color : #aaa;
+font-size : 140%;
+padding : 5px 8px;
+margin-bottom : 3px;
+font-weight : bold;
+}
+.mifecha .mes {
+background-color : #999;
+font-size : 80%;
+padding : 2px;
+color : #fff;
+font-weight : bold;
+}
+.mifecha .dias {
+font-weight : bold;
+padding : 3px;
+}
+#calendario {
+float : left;
+}
+#aecar1 {
+width : 3.5rem;
+height : 30px;
+}
+@font-face {
+font-family : 'Chela One';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/chelaone/v19/6ae-4KC7Uqgdz_JZdPIy3w.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Inconsolata';
+font-style : normal;
+font-weight : 200;
+font-stretch : normal;
+src : url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU8aRo.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Mate SC';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/matesc/v19/-nF8OGQ1-uoVr2wKyiU.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Newsreader';
+font-style : italic;
+font-weight : 300;
+src : url(https://fonts.gstatic.com/s/newsreader/v7/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMx2T-ZA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Oswald';
+font-style : normal;
+font-weight : 200;
+src : url(https://fonts.gstatic.com/s/oswald/v47/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUE.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Pattaya';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/pattaya/v10/ea8ZadcqV_zkHY-XNdA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Reggae One';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/reggaeone/v10/~CgwKClJlZ2dhZSBPbmUgAA==.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RC La Nucía</title>
+		<link rel="shortcut icon" href="Imágenes/favicon.ico" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.20">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Mate+SC&family=Oswald:wght@200&family=Pattaya&family=Reggae+One&family=Roboto&display=swap$family=Anton&family=Chela+One&family=Newsreader:ital,wght@1,300&display=swap" rel="stylesheet">
+		<script src="https://www.google.com/recaptcha/api.js"render=6LfGcWceAAAAAJ-LpJci-zh2YXeXq8GgsxYqzI6K></script>
+		<script>
+		function onSubmit(token) {
+			document.getElementById("formulario").submit();
+		}
+		</script>
+	</head>
+	
+	<body>
+		<header>
+			<img id="logo" src="Imágenes/logotipoblanco.jpg">
+		</header>
+		
+		<nav>
+			<div id="elclub"><a href="index.html">El Club</a></div>
+			<div id="normas"><a href="normas.html">Normas</a></div>
+			<div id="multim"><a href="multimedia.html">Multimedia</a></div>
+			<div id="contacto">Contacto</div>
+			<!--<div id="calendario">
+				<script type="text/javascript" src="calendario.js">	
+				</script>
+			</div>-->
+			<div id="mosaico">
+				<span id="RC">Radiocontrol</span><span id="bateria">batería</span><span id="emisora">emisora</span><br/>
+				<span id="circuito">circuito</span><span id="nitro">nitro</span><span id="servo">servo</span><br/>
+				<span id="receptor">receptor</span><span id="brussless">brussless</span><span id="motornitro">motor nitro</span>
+			</div>
+		</nav>
+		<section id="contacto1">
+			<br/><br/>
+			Puedes ponerte en contacto con nosotros a través de:
+			<ul>
+				<li>E-mail:<a href="mailto:info@rcnucia.com?subject=Información">info@rcnucia.com</a></li><br/>
+					<li>Teléfono o whatsapp:</li>
+					<ul>
+						<li>José Luis Picón:629 80 76 22</li>
+						<li>Joan Espasa: 633 55 32 84</li>
+						<li>Ramón Trujillo:639 79 26 19</li>
+					</ul>
+				<li>Puedes visitar nuestra página de Facebook <a href="http://facebook.com/Club-RC-La-Nucia-109917694919182"><img id="LogoFace" src="Imágenes/LogoFace2.jpg"></a></li><br/>
+				<li>O rellenando el siguiente formulario de información:</li>
+			</ul>
+			<script>
+				function enviar() {
+					let boton =document.getElementById("boton_enviar");
+					document.getElementById("privacidad");
+					if (privacidad.checked == true) {
+						boton.disabled = false;
+					} else {
+						boton.disabled = true
+					} 
+				};
+			</script>
+			<!--Formulario de contacto-->
+			<div id="formulario">
+				<form action="recontacto.php" method="post" charset="utf-8">
+					<b><span id="forinf">Formulario de información</span></b>
+					<fieldset>
+						<legend><b>Datos personales</b></legend>
+						Nombre:<input type="text" name="nombre" id="nombre" size="28" autofocus required
+						placeholder="Su nombre" title="Escriba su nombre para poder referirnos a usted correctamente"/><br/>
+						e-mail:<input type="email" name="mail" size="28" required placeholder="nombre@servidor.com" title="Escriba su correo electrónico para poder comunicarnos con Ud. lo antes posible"/><br/>
+						Teléfono:<input type="number" name="telefono" required />
+					</fieldset>
+					<fieldset><textarea cols="40" rows="8" name="comentarios" placeholder="Comentarios"></textarea></fieldset>
+						<input id="boton_enviar" type="submit" value="Enviar" disabled/>
+						<input id="boton_reset" type="reset" value="Limpiar"/><br>
+						<input type="checkbox" id="privacidad" onclick="enviar()">
+						Acepto la <a href="aviso.html" target="_blank">política de privacidad.</a></input>		
+					</form>
+			</div>
+			<!--Formulario para darse de alta como socios-->
+			<div id="subscripcion">
+				<form action="subscribirse.php" method="post" charset="utf-8">
+					<b><span id="formu">Formulario de alta para ser socio del Club RC La Nucía</span></b>
+					<fieldset>
+						<legend><b>Datos personales</b></legend>
+						Nombre:<input type="text" name="nombresubs" size="27" required>
+						Apellidos:<input type="text" name="apellidossubs" size="35" required><br/>
+						DNI/NIE:<input type="text" name="dnisubs" size="5" required>
+						F. Nac.:<input type="date" name="nacisubs" size="5" required>
+						Teléfono:<input type="number" name="telefonosubs" size="5" required min="600000000" max="800000000">
+						e-mail:<input type="email" name="emailsubs" size="25" required><br/>
+						Dirección:<input type="text" name="direccionsubs" size="35" required><br/>
+						C.P.:<input type="number" name="cpsubs" size="5" required min="03000" max="03999">
+						Población:<input type="text" name="poblacionsubs" size="25" required><br/>
+					</fieldset>
+					<fieldset>
+						<legend><b>Otros datos</b></legend>
+						¿Tienes licencia de AECAR?
+						<input type="radio" name="licenciasubs" value="si" required>Si</input>
+						Número:<input type="number" name="numerosubs" size="5"></input>
+						<input type="radio" name="licenciasubs" value="no">No</input><br/>
+					</fieldset>
+					<!--Debes realizar un ingreso de 30€ (20€ de depósito por la llave + 10€ mes actual).<br/>
+					IBAN para el ingreso: ES98 3105 2644 1327 2000 7064.<br/>
+					Aparte si no tienes licencia de AECAR hay que solicitarla, depende si quieres una licencia solo para rodar 30€ o para competir 50€.<br/>
+					Cuando te entreguemos la llave deberás tener el justificante del ingreso-->
+					¡¡Atención el Club RC La Nucía no acepta nuevos socios hasta que el nuevo circuito esté operativo!!
+					Disculpa las molestias, gracias.
+					<br/><br/>
+					<!--
+					<input id="boton_enviar" type="submit" value="Enviar"/>
+					<input id="boton_reset" type="reset" value="Limpiar"/>
+					-->
+				</form></div>
+				
+		</section>
+		
+		<footer>
+			<div id="pieizquierda">
+				email:<a href="mailto:info@rcnucia.com?subject=Información">info@rcnucia.com</a><br/>
+				&copy Club RC La Nucía<br/>
+				<a href="aviso.html">Aviso legal</a><br/>
+			</div>
+			<div id="piecentro">
+				Club RC La Nucía<br/>
+				Pda. La Muixara<br/>
+				<a href="https://www.ciudaddeportivacamilocano.com" target="_blank">Ciudad Deportiva Camilo Cano</a><br/>
+				03530 La Nucía (Alicante)<br/>
+			</div>
+			<div id="piederecha">
+				Webmaster:<a href="mailto:ramontrujillo@rcnucia.com">ramontrujillo@rcnucia.com</a><br/>
+				&copy 2022 RC La Nucía<br/>
+				versión 1.2
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px;float:right"
+						src="http://jigsaw.w3.org/css-validator/images/vcss"
+						alt="¡CSS Válido!"/>
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,327 @@
+/*Estilos para la web del RC La Nucía*/
+*{
+	font-family:arial, verdana, sans-serif;
+}
+header{
+	border:5px solid #AAAAAA;
+	border-radius:5px 10px 0 0;
+	background:linear-gradient(top, blue 50%, yellow 50%);
+	background:-webkit-linear-gradient(top, blue 50%, yellow 50%);
+	background:-moz-linear-gradient(top, blue 50%, yellow 50%);
+	background:-o-linear-gradient(top, blue 50%, yellow 50%);
+	background:-ms-linear-gradient(top, blue 50%, yellow 50%);
+}
+#logo{
+	width:25rem;
+	height:12.5rem;
+}
+/*nav{
+	font-size:35px;	
+}*/
+nav a{
+	text-decoration:none;
+	color:black;
+}
+nav a:hover{
+	color:red;
+}
+#elclub{
+	float:left;
+	padding:2rem;
+	background-color:#AAAAAA;
+	font-size:2.5rem;
+}
+#normas{
+	float:left;
+	padding:2rem;
+	background-color:#AAAAAA;
+	font-size:2.5rem;
+}
+#multim{
+	float:left;
+	padding:2rem;
+	background-color:#AAAAAA;
+	font-size:2.5rem;
+}
+#contacto{
+	float:left;
+	padding:2rem;
+	background-color:#AAAAAA;
+	font-size:2.5rem;
+}
+#mosaico{
+	background-color:#AAAAAA;
+	text-align:center;
+}
+#RC a{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	margin:0 2px 0 2px;
+	}
+#RC a:hover{
+	color:red;
+}
+#bateria{
+	font-size:32px;
+	font-family: 'Pattaya', sans-serif;
+	margin:0 2px 0 2px;
+}
+#emisora a{
+	font-size:27px;
+	font-family: 'Oswald', sans-serif;
+	color:#CCCCCC;
+	margin:0 2px 0 2px;
+}
+#emisora a:hover{
+	color:red;
+}
+#circuito{
+	font-size:35px;
+	font-family: 'Mate SC', serif;
+	margin:0 2px 0 2px;
+}
+#nitro{
+	font-size:27px;
+	font-family: 'Reggae One', cursive;
+	margin:0 2px 0 2px;
+}
+#servo{
+	font-size:30px;
+	font-family: 'Inconsolata', monospace;
+	margin:0 2px 0 2px;
+}
+#receptor{
+	font-size:22px;
+	font-family: 'Newsreader', serif;
+	margin:0 2px 0 2px;
+}
+#brussless{
+	font-size:25px;
+	font-family: 'Anton', sans-serif;
+	margin:0 2px 0 2px;
+}
+#motornitro a{
+	font-size:20px;
+	font-family: 'Chela One', cursive;
+	margin:0 2px 0 2px;
+	color:gray;
+}
+#motornitro a:hover{
+	color:red;
+}
+section{
+	border:5px solid #AAAAAA;
+	height:37.5rem;
+	background:linear-gradient(left, #CCCCCC, white);
+	background:-webkit-linear-gradient(left, #CCCCCC, white);
+	background:-moz-linear-gradient(left, white 30%, gray 50%, black);
+	background:-o-linear-gradient(left, white 30%, gray 50%, black);
+	background:-ms-linear-gradient(left, white 30%, gray 50%, black);
+	font-family:arial, verdana, sans-serif;
+}
+#izquierda{
+	float:left;
+	width:50%;
+	height:300px;
+}
+#derecha{
+	
+	height:300px;	
+}
+
+.circuito{
+	width:15rem;
+	height:15rem;
+	float:left;
+}
+#texto{
+	column-count:2;
+	float:no-float;
+}
+@media only screen and (max-width: 500px){
+	.circuito{
+		width:15rem;
+		height:15rem;
+	}
+}
+footer{
+	height:80px;
+	background-color:#AAAAAA;
+}
+#pieizquierda{
+	float:left;
+	width:37%;
+}
+#pieizquierda a{
+	text-decoration:none;
+	color:#333333;	
+}
+#piecentro{
+	float:left;
+	width:37%;
+}
+#piecentro a{
+	text-decoration:none;
+	color:#333333;
+}
+#piederecha{
+	float:left;
+}
+#piederecha a{
+	text-decoration:none;
+	color:#333333;
+}
+#secnormas{
+	height:500px;
+}
+#secnormas img{
+	width:35px;
+	height:22px;
+}
+ul {
+	list-style:none; 
+}
+#multi{
+	height:1500px;
+}
+#fotos img{
+	width:23%;
+	height:200px;
+	float:left;
+	margin:10px;
+}
+#videos iframe{
+	width:30%;
+	height:300px;
+	float:left;
+	margin:10px;
+}
+#aviso{
+	height:400px;
+}
+#contacto1{
+	height:650px;
+}
+fieldset{
+	border:2px solid gray;
+	border-radius:5px;
+}
+#formulario{
+	margin-left:6px;
+	border:5px solid gray;
+	border-radius:7px;
+	float:left;
+}
+#boton_enviar{
+	width:70px;
+	height:30px;
+	background-color:gray;
+	color:red;
+	border-radius:5px;
+	margin: 15px 20px 15px 30%;
+}
+#boton_enviar:hover{
+	color:blue;
+}
+#boton_reset{
+	width:70px;
+	height:30px;
+	background-color:gray;
+	color:red;
+	border-radius:5px;
+	margin: 15px 0 15px 0;
+}
+#boton_reset:hover{
+	color:blue;
+}
+#subscripcion{
+	margin-right:6px;
+	width:330;
+	border:5px solid gray;
+	border-radius:7px;
+	float:right;
+}
+#boton_volver{
+	width:100px;
+	height:40px;
+	background-color:#DD0055;
+	border:4px solid red;
+	border-radius:4px;
+}
+#boton_volver:hover{
+	background-color:#AA00AA;
+	border:4px solid gray;
+}
+#formu, #forinf{
+	color:red;
+	font-size:20px;
+}
+@media only screen and (max-width: 400px){
+	
+	section{
+		height:1000px;
+		background-color:red;
+	}
+}
+#recontacto{
+	height:200px;
+}
+#LogoFace{
+	width:30px;
+	height:30px;
+}
+ .mifecha {
+	background-color: #999;
+	padding: 3px;
+	width: 70px;
+	text-align: center;
+	font-family:verdana, arial;
+	font-size: 10pt;
+}
+.mifecha .ano{
+	background-color: #999;
+	padding: 2px;
+	font-size: 100%;
+	margin-bottom: 3px;
+	color: #fff;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.mifecha .dia{
+	background-color: #aaa;
+	font-size: 140%;
+	padding: 5px 8px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.mifecha .mes{
+	background-color: #999;
+	font-size: 80%;
+	padding: 2px;
+	color: #fff;
+	font-weight: bold;
+}
+.mifecha .dias{
+	font-weight:bold;
+	padding:3px;
+}
+#calendario{
+	float:left;
+}
+#tiempo{
+	
+	float:left;
+	width:40%;
+	height:200px;
+}
+#cartel{
+	float:right;
+	margin-right:5%;
+	width:14%;
+	height:250px;
+}
+#aecar1{
+	width:3.5rem;
+	height:30px;
+}
